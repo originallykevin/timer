@@ -3,8 +3,7 @@ const input = process.argv.slice(2).filter(time => (!isNaN(Number(time)) && time
 
 // break down code below(old code)
 // let input = process.argv.slice(2)
-// input.filter(time => time > 0));
-// input = input.filter(Number) 
+// let input = input.filter(time => time > 0).filter(Number) 
 // console.log(input);
 
 for (const time of input) {
